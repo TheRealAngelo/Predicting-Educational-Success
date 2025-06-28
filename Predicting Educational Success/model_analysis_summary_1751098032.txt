@@ -1,0 +1,64 @@
+
+EDUCATIONAL SUCCESS PREDICTION - MODEL COMPARISON REPORT
+========================================================
+
+Dataset Information:
+- Total samples: 10000
+- Features used: 13
+- Target classes: 4
+- Exam score included: True
+
+Top 3 Performing Models:
+
+1. Decision Tree
+   - Accuracy: 1.0000 ± 0.0000
+   - F1 Score: 1.0000 ± 0.0000
+   - Precision: 1.0000 ± 0.0000
+   - Recall: 1.0000 ± 0.0000
+   - MCC: 1.0000 ± 0.0000
+   - AUC: 1.0000 ± 0.0000
+
+2. Random Forest
+   - Accuracy: 1.0000 ± 0.0000
+   - F1 Score: 1.0000 ± 0.0000
+   - Precision: 1.0000 ± 0.0000
+   - Recall: 1.0000 ± 0.0000
+   - MCC: 1.0000 ± 0.0000
+   - AUC: 1.0000 ± 0.0000
+
+3. Gradient Boosting (GPU)
+   - Accuracy: 1.0000 ± 0.0000
+   - F1 Score: 1.0000 ± 0.0000
+   - Precision: 1.0000 ± 0.0000
+   - Recall: 1.0000 ± 0.0000
+   - MCC: 1.0000 ± 0.0000
+   - AUC: 1.0000 ± 0.0000
+
+
+COMPLETE MODEL COMPARISON TABLE:
+============================================================
+Rank | Model                     | Accuracy | F1       | Precision | Recall   | MCC      | AUC     
+------------------------------------------------------------------------------------------------------------------------
+
+1    | Decision Tree             | 1.0000   | 1.0000   | 1.0000    | 1.0000   | 1.0000   | 1.0000  
+2    | Random Forest             | 1.0000   | 1.0000   | 1.0000    | 1.0000   | 1.0000   | 1.0000  
+3    | Gradient Boosting (GPU)   | 1.0000   | 1.0000   | 1.0000    | 1.0000   | 1.0000   | 1.0000  
+4    | SVM                       | 0.9969   | 0.9969   | 0.9969    | 0.9969   | 0.9959   | 1.0000  
+5    | k-NN                      | 0.9101   | 0.9101   | 0.9105    | 0.9101   | 0.8802   | 0.9884  
+6    | Logistic Regression       | 0.8784   | 0.8783   | 0.8785    | 0.8784   | 0.8378   | 0.9804  
+7    | Neural Network            | 0.8120   | 0.8106   | 0.8134    | 0.8120   | 0.7504   | 0.9630  
+8    | Naive Bayes               | 0.6813   | 0.6805   | 0.6804    | 0.6813   | 0.5749   | 0.9010  
+
+Processing Configuration:
+- GPU Available: True
+- XGBoost using: GPU acceleration
+- Parallel processing: Enabled for compatible models
+
+Analysis Notes:
+- Cross-validation: 5-fold stratified
+- Evaluation metrics: 6 comprehensive metrics
+- Feature encoding: Label encoding for categorical variables
+- Missing values: Removed (10000 samples retained)
+
+Best Performing Model: Decision Tree (Accuracy: 1.0000)
+Most Stable Model: Decision Tree (Std: 0.0000)
