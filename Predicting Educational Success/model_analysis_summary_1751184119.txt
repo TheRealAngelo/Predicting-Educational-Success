@@ -1,6 +1,5 @@
 
 EDUCATIONAL SUCCESS PREDICTION - MODEL COMPARISON REPORT
-========================================================
 
 Dataset Information:
 - Total samples: 10000
